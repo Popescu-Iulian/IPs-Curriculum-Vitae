@@ -21,27 +21,26 @@
   <input aria-hidden="true" tabindex="-1" type="radio" name="work" id="work-1" />
   <input aria-hidden="true" tabindex="-1" type="radio" name="work" id="work-2" />
   <input aria-hidden="true" tabindex="-1" type="radio" name="work" id="work-3" />
-  <main id="resume" itemscope="" itemtype="http://schema.org/Person">
+  <main id="resume">
     <div>
       <header>
-        <h1 itemprop="name"><label for="section-0">Iulian Popescu</label></h1>
-        <p id="objective" itemprop="description">
-          <span itemprop="jobTitle">Jr. Front End Web Developer</span> with
+        <h1><label for="section-0">Iulian Popescu</label></h1>
+        <p id="objective">
+          <span>Jr. Front End Web Developer</span> with
           strong experience creating
-          <span itemprop="knowsAbout">high-quality, scalable, and high-performance web
+          <span>high-quality, scalable, and high-performance web
             applications</span>
           seeking
-          <span itemprop="seeks">front-end and full stack opportunities</span>.
+          <span>front-end and full stack opportunities</span>.
         </p>
         <address id="contact-mini">
-          <div itemprop="email">
-            <a href="mailto:popescu.iulian@protonmail.com">popescu.iulian@protonmail.com</a>
-          </div>
-          <a href="tel:0735438122"><span itemprop="telephone">0735 438 122</span></a>
           <div>
-            <a rel="external author"
-              href="https://www.google.com/maps/place/Vatra+Luminoasă,+București/@44.4376635,26.1389154,16z/data=!3m1!4b1!4m5!3m4!1s0x40b1fed498feec5d:0x66041bfb8fa09190!8m2!3d44.4380227!4d26.1424149"
-              itemprop="url">Bucharest, Romania</a>
+            <a href="mailto:popescu.iulian@protonmail.com" target="_blank">popescu.iulian@protonmail.com</a>
+          </div>
+          <a href="tel:0735438122" target="_blank"><span>0735 438 122</span></a>
+          <div>
+            <a href="https://www.google.com/maps/place/Vatra+Luminoasă,+București/@44.4376635,26.1389154,16z/data=!3m1!4b1!4m5!3m4!1s0x40b1fed498feec5d:0x66041bfb8fa09190!8m2!3d44.4380227!4d26.1424149"
+              target="_blank">Bucharest, Romania</a>
           </div>
         </address>
       </header>
@@ -51,17 +50,17 @@
         <div id="experience-container">
           <section>
             <h3>
-              <span itemprop="name">Digital Marks</span>
+              <span>Digital Marks</span>
             </h3>
-            <h4 itemprop="member" itemscope="" itemtype="http://schema.org/OrganizationRole">
-              <span itemprop="roleName">Front end Web Developer</span>
+            <h4>
+              <span>Front end Web Developer</span>
               <span class="dates">
-                <time itemprop="startDate">2020</time>
+                <time>2020</time>
                 -
                 <time></time>
               </span>
             </h4>
-            <ul itemprop="description">
+            <ul>
               <li>
                 Developed widgets using React and Less to display patient
                 information.
@@ -86,17 +85,17 @@
 
           <section>
             <h3>
-              <span itemprop="name">Ministry of National Defence</span>
+              <span>Ministry of National Defence</span>
             </h3>
-            <h4 itemprop="member" itemscope="" itemtype="http://schema.org/OrganizationRole">
-              <span itemprop="roleName">Military staff</span>
+            <h4>
+              <span>Military staff</span>
               <span class="dates">
-                <time itemprop="startDate">2016</time>
+                <time>2016</time>
                 -
-                <time itemprop="endDate">2018</time>
+                <time>2018</time>
               </span>
             </h4>
-            <ul itemprop="description">
+            <ul>
               <li>
                 Developed new components for the award-winning website
                 Cadillac.com and its mobile version.
@@ -126,17 +125,17 @@
 
           <section>
             <h3>
-              <span itemprop="name">Ubisoft Romania</span>
+              <span>Ubisoft Romania</span>
             </h3>
-            <h4 itemprop="member" itemscope="" itemtype="http://schema.org/OrganizationRole">
-              <span itemprop="roleName">Quality Assurance Tester</span>
+            <h4>
+              <span>Quality Assurance Tester</span>
               <span class="dates">
-                <time itemprop="startDate">2014</time>
+                <time>2014</time>
                 -
-                <time itemprop="endDate">2015</time>
+                <time>2015</time>
               </span>
             </h4>
-            <ul itemprop="description">
+            <ul>
               <li>
                 Designed and developed different web projects with a focus on
                 accessibility, including new features and website
@@ -161,17 +160,17 @@
 
           <section>
             <h3>
-              <span itemprop="name">Tradeville</span>
+              <span>Tradeville</span>
             </h3>
-            <h4 itemprop="member" itemscope="" itemtype="http://schema.org/OrganizationRole">
-              <span itemprop="roleName">Online Marketing Specialist</span>
+            <h4>
+              <span>Online Marketing Specialist</span>
               <span class="dates">
-                <time itemprop="startDate">2011</time>
+                <time>2011</time>
                 -
-                <time itemprop="endDate">2014</time>
+                <time>2014</time>
               </span>
             </h4>
-            <ul itemprop="description">
+            <ul>
               <li>
                 Developed two internal content management systems (related to
                 HP’s products documentation) with over three million monthly
@@ -199,13 +198,20 @@
       <section>
         <h2><label for="section-2">Programming Technologies</label></h2>
         <ul class="no-bullets" id="languages">
-          <li itemprop="knowsAbout">JavaScript</li>
-          <li itemprop="knowsAbout">HTML</li>
-          <li itemprop="knowsAbout">CSS</li>
-          <li itemprop="knowsAbout">TypeScript</li>
-          <li itemprop="knowsAbout">Python</li>
-          <li itemprop="knowsAbout">React</li>
-          <li itemprop="knowsAbout">Vue</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>TypeScript</li>
+          <li>Python</li>
+          <li>React JS</li>
+          <li>Vue JS</li>
+          <li>CLI</li>
+          <li>AJAX</li>
+          <li>Lodash JS</li>
+          <li>Handlebars JS</li>
+          <li>RESTfull API</li>
+          <li>OOP</li>
+          <li>DOM</li>
         </ul>
       </section>
 
@@ -213,16 +219,16 @@
         <h2><label for="section-3">Education and Certifications</label></h2>
         <ul class="no-bullets educert">
           <li>
-            <span itemprop="name">University of Jaen</span>
+            <span>University of Jaen</span>
             <ul>
-              <li itemprop="award">B.S. Computer Science</li>
-              <li itemprop="award">M.S. Computer Science</li>
+              <li>B.S. Computer Science</li>
+              <li>M.S. Computer Science</li>
             </ul>
           </li>
           <li>
-            <span itemprop="name">Scrum Alliance</span>
+            <span>Scrum Alliance</span>
             <ul>
-              <li itemprop="award">Certified ScrumMaster</li>
+              <li>Certified ScrumMaster</li>
             </ul>
           </li>
         </ul>
@@ -263,24 +269,24 @@
         <h2><label for="section-5">Additional Links</label></h2>
         <ul class="no-bullets educert">
           <li>
-            <a href="https://www.linkedin.com/in/popescu-iulian/">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/popescu-iulian/" target="_blank">LinkedIn</a>
           </li>
           <li>
-            <a href="https://github.com/Popescu-Iulian">GitHub</a>
+            <a href="https://github.com/Popescu-Iulian" target="_blank">GitHub</a>
             <ul>
               <li>HTML, CSS</li>
               <li>JavaScript</li>
             </ul>
           </li>
           <li>
-            <a href="https://www.codewars.com/users/Popescu-Iulian">CodeWars</a>
+            <a href="https://www.codewars.com/users/Popescu-Iulian" target="_blank">CodeWars</a>
             <ul>
               <li>HTML, CSS</li>
               <li>JavaScript</li>
             </ul>
           </li>
           <li>
-            <a href="https://www.hackerrank.com/popescu_iulian">HakerRank</a>
+            <a href="https://www.hackerrank.com/popescu_iulian" target="_blank">HakerRank</a>
             <ul>
               <li>HTML, CSS</li>
               <li>JavaScript</li>
