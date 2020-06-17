@@ -63,9 +63,7 @@ main header {
 }
 
 main header:nth-child(1) {
-	background: url(https://alvaromontoro.com/images/yo.jpg) #336699 top center
-		no-repeat;
-	background-size: cover;
+	background: #336699;
 }
 
 main header::after {
