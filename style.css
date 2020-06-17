@@ -117,7 +117,8 @@ h1 {
 }
 
 header #objective {
-	padding: 2rem;
+	padding: 1.5rem;
+	text-align: justify;
 }
 
 #contact-mini a {
