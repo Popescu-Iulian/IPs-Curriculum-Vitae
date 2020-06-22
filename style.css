@@ -198,7 +198,7 @@ main > div:nth-child(1) > section:nth-child(2) section {
 }
 
 #experience-container {
-	width: 400%;
+	width: 600%;
 	overflow: hidden;
 	position: absolute;
 	transition: left 0.5s;
@@ -258,10 +258,6 @@ main > div:nth-child(2) > section > ul > li a:hover {
 		-1px 1px #fff, -1px 0 #fff, -1px -1px #fff, 0 0 2px #fff;
 }
 
-#work-0:checked ~ main #experience-container {
-	left: 0;
-}
-
 main #experience-container section,
 main #languages,
 main #edu-certs > ul,
@@ -282,6 +278,10 @@ main #additional-links > ul {
 	margin-top: 0;
 }
 
+#work-0:checked ~ main #experience-container {
+	left: 0;
+}
+
 #work-1:checked ~ main #experience-container {
 	left: -55vmin;
 }
@@ -292,6 +292,14 @@ main #additional-links > ul {
 
 #work-3:checked ~ main #experience-container {
 	left: -165vmin;
+}
+
+#work-4:checked ~ main #experience-container {
+	left: -220vmin;
+}
+
+#work-5:checked ~ main #experience-container {
+	left: -275vmin;
 }
 
 #languages {
@@ -370,6 +378,14 @@ main #additional-links > ul {
 
 	#work-3:checked ~ main #experience-container {
 		left: -240vmin;
+	}
+
+	#work-4:checked ~ main #experience-container {
+		left: -320vmin;
+	}
+
+	#work-5:checked ~ main #experience-container {
+		left: -400vmin;
 	}
 
 	main > div:nth-child(1) > section:nth-child(2) h2 {
