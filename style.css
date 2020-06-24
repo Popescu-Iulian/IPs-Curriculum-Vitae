@@ -272,7 +272,7 @@ main > div:nth-child(2) > section > ul > li a:hover {
 }
 
 main #experience-container section,
-main #languages,
+main #programming,
 main #edu-certs > ul,
 main #volunteering > ul,
 main #additional-links > ul {
@@ -283,7 +283,7 @@ main #additional-links > ul {
 }
 
 #section-1:checked ~ main #experience-container section,
-#section-2:checked ~ main #languages,
+#section-2:checked ~ main #programming,
 #section-3:checked ~ main #edu-certs > ul,
 #section-4:checked ~ main #volunteering > ul,
 #section-5:checked ~ main #additional-links > ul {
@@ -315,10 +315,23 @@ main #additional-links > ul {
 	left: -275vmin;
 }
 
-#languages {
+#programming {
 	column-count: 2;
 	font-size: 1.25rem;
 	list-style: none;
+	padding-top: 1.5rem;
+	margin-left: 1.5rem;
+}
+
+.adds > li,
+.educert > li,
+#volunteering > ul > li {
+	margin-left: 1.8rem;
+}
+
+.educert,
+#volunteering > ul {
+	padding-top: 1.5rem;
 }
 
 .educert > li > span,
