@@ -115,7 +115,7 @@ h1 {
 }
 
 header #objective {
-	padding: 1.5rem;
+	padding: 2rem 3rem 0.5rem;
 	text-align: justify;
 }
 
@@ -123,6 +123,13 @@ header #objective {
 	display: block;
 	text-align: center;
 	color: #fff;
+	text-decoration: none;
+	padding: 2px;
+}
+
+#contact-mini a:hover {
+	color: lightcoral;
+	font-weight: bold;
 }
 
 input {
@@ -203,6 +210,12 @@ main > div:nth-child(1) > section:nth-child(2) section {
 	position: absolute;
 	transition: left 0.5s;
 	left: 0;
+}
+
+#experience-container li {
+	font-size: 1rem;
+	padding: 0 1rem 0.5rem 0;
+	text-align: justify;
 }
 
 main > div:nth-child(2) > section > ul {
@@ -310,7 +323,7 @@ main #additional-links > ul {
 
 .educert > li > span,
 #volunteering > ul > li > span {
-	font-size: 1.25rem;
+	font-size: 1.1rem;
 	color: #000;
 }
 
